@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Telemedicine Home</title>
+  <title>Telemedicine Test</title>
   <!-- Matomo -->
   <script>
     var _paq = window._paq = window._paq || [];
@@ -16,10 +16,11 @@
     })();
   </script>
   <!-- End Matomo Code -->
+  <!-- Allow Matomo via CSP -->
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.matomo.cloud; connect-src 'self' https://telemed-test-123.matomo.cloud;">
 </head>
 <body>
-  <h1>Welcome to Telemedicine</h1>
-  <a href="/booking.html">Book Appointment</a>
+  <h1>Telemedicine Test</h1>
+  <button onclick="_paq.push(['trackEvent', 'Test', 'Click']);">Test Click</button>
 </body>
 </html>
